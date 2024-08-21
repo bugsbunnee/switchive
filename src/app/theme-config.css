@@ -1,0 +1,11 @@
+.radix-themes {
+  --default-font-family: var(--font-montserrat);
+}
+
+.light-bg {
+  background-color: #f1eff3;
+}
+
+.dark-bg {
+  background-color: #232225;
+}
