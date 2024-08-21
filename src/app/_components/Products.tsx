@@ -31,7 +31,6 @@ const Products: React.FC<Props> = ({ category, currentPage, pageSize, products, 
                 {paginatedProducts.map((product) => (
                     <Card key={product.id} size='2'>
                             <motion.div 
-                                key={product.id} 
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
                             >
