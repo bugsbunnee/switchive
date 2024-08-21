@@ -29,7 +29,7 @@ const Products: React.FC<Props> = ({ category, currentPage, pageSize, products, 
         <>
             <Grid columns={{ initial: '1', sm: '1' , md: '2', lg: '4'}} gap='6' my='9'>
                 {paginatedProducts.map((product) => (
-                    <Card size='2'>
+                    <Card key={product.id} size='2'>
                             <motion.div 
                                 key={product.id} 
                                 whileHover={{ scale: 1.1 }}
